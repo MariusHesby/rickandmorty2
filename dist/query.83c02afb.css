@@ -1,0 +1,25 @@
+body {
+  background: #d9d8bc;
+  background: radial-gradient(circle, #d9d8bc 0%, white 100%);
+  padding: 2em 5em;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+.results .card {
+  border: 1px solid #000;
+  background-color: #fff;
+}
+.results h2, .results p {
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=/query.83c02afb.css.map */
