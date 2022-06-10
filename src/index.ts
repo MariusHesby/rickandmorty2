@@ -1,4 +1,4 @@
-import { createProduct, Product } from './helpers/objectHelpers';
+import { createProduct, Product } from './helpers/objectHelpers.js';
 
 const newProduct: Product = createProduct(
   12,
