@@ -1,6 +1,6 @@
+import "../sass/styles.scss";
 import ApolloClient, { gql } from "apollo-boost";
 import { orderBy } from "lodash";
-import "../sass/styles.scss";
 
 // Grab what you need
 const resultsContainer = document.querySelector(".results");
@@ -34,10 +34,7 @@ const getData = async () => {
 
     // Loop through the results
     for (let i = 0; i < allCharacters.length; i++) {
-
-
         const orderedCharacters = orderBy(allCharacters, ["name"], ["desc"]);
-
 
         // Create HTML
         resultsContainer.innerHTML += `
