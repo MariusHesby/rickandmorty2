@@ -1,0 +1,23 @@
+body {
+    background: rgb(217,216,188);
+    background: radial-gradient(circle, rgba(217,216,188,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 2em 5em;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+}
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    
+    .card {
+        border: 1px solid #000;
+        background-color: #fff;
+    }
+    
+    h2, p {
+        padding-left: 10px;
+    }
+}

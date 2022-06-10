@@ -1,0 +1,37 @@
+{
+  "name": "workflow-2-course-assignment-mariushesby",
+  "version": "1.0.0",
+  "description": "## Brief",
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noroff-FEU-Assignments/workflow-2-course-assignment-MariusHesby.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noroff-FEU-Assignments/workflow-2-course-assignment-MariusHesby/issues"
+  },
+  "homepage": "https://github.com/Noroff-FEU-Assignments/workflow-2-course-assignment-MariusHesby#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "apollo-server-express": "^3.6.3",
+    "graphql": "^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0"
+  }
+}
