@@ -1,51 +1,63 @@
-# Workflow 2 Course Assignment
+# Rick and Morty 2 (Workflow Course Assignment)
 
-## Brief
+![image](https://github.com/MariusHesby/mariushesby.github.io/blob/main/public/assets/images/project-workflow.png)
 
-Configure the project to use Jest with Babel. Lesson 2 of Module 2 contains instructions to do this.
+## Description
 
-The lesson also contains instructions on adding TypeScript support for Jest.
+School project (Noroff), 
 
-You will need to create and configure a package.json file and install all neceessary dependencies.
+This is a list of the tasks we were given:
 
-Remember to add the appropriate entries to a `.gitignore` file.
+- convert all functions in the "scripts" folder (except query.js) to Typescript
+- Write passing tests for all the functions found in `scripts/helpers/stringHelpers.js` and `scripts/helpers/objectHelpers.js`.
+- Find a free GraphQL API.
+- In `scripts/query.js` make a GraphQL API call that returns an array of results.
+- Use a lodash method to sort the results on a field in descending order.
+- Style the HTML using Sass.
 
-Use Parcel as the bundler.
+
+## Built With
+
+- [Babel](https://babeljs.io/)
+- [Jest](https://jestjs.io/)
+- [Typescript](https://www.typescriptlang.org/)
+- SASS
+
+
+## Getting Started
+
+### Install NPM packages
 
 ```
-parcel index.html
+npm install
 ```
 
-## Level 1
+### Running
 
-### Question 1
+To run the app, use live-server or something similar:
 
-Convert all the functions in `scripts/helpers/stringHelpers.js` to TypeScript.
+```bash
+live-server
+```
 
-### Question 2
+## Contributing
 
-Convert the function in `scripts/helpers/objectHelpers.js` to TypeScript.
+If you have suggestions that would make this site better, I would love to check it out. Just fork the project and create a pull request. Thanks!
 
-Create an interface to be used for the arguments and return value of the function.
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/CoolFeatures)
+- Commit your Changes (git commit -m 'Add some CoolFeatures')
+- Push to the Branch (git push origin feature/CoolFeatures)
+- Open a Pull Request
 
-### Question 3
+## Contact
 
-Convert `scripts/index.js` to TypeScript. Use the interface from question 2 as the type of the `newProduct` variable.
+- [My portfolio page](https://portfolio-mariushesby.vercel.app/)
+- [My LinkedIn page](https://www.linkedin.com/in/marius-hesby/)
+- [My E-mail](mailto:marius.r.hesby@gmail.com)
 
-### Question 4
+## Acknowledgments
 
-Write passing tests for all the functions found in `scripts/helpers/stringHelpers.js` and `scripts/helpers/objectHelpers.js`.
-
-### Question 5
-
-Find a free GraphQL API.
-
-In `scripts/query.js` make a GraphQL API call that returns an array of results.
-
-Use a lodash method to sort the results on a field in descending order.
-
-Loop through the results and create HTML for the results using at least 2 object properties. Attach the HTML to `div.results.`
-
-Style the HTML using Sass.
-
-You can write the answer for this question in either JavaScript or TypeScript.
+- [CSS Tricks - Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [UI Kit from Apple](https://developer.apple.com/design/resources/)
+- [Rick and Morty API](https://rickandmortyapi.com/graphql/)
