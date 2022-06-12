@@ -15,14 +15,12 @@ This is a list of the tasks we were given:
 - Use a lodash method to sort the results on a field in descending order.
 - Style the HTML using Sass.
 
-
 ## Built With
 
 - [Babel](https://babeljs.io/)
 - [Jest](https://jestjs.io/)
 - [Typescript](https://www.typescriptlang.org/)
 - SASS
-
 
 ## Getting Started
 
@@ -61,3 +59,4 @@ If you have suggestions that would make this site better, I would love to check 
 - [CSS Tricks - Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [UI Kit from Apple](https://developer.apple.com/design/resources/)
 - [Rick and Morty API](https://rickandmortyapi.com/graphql/)
+- [Google fonts](https://fonts.google.com/)
